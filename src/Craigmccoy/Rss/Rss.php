@@ -232,7 +232,6 @@ class Rss
                     'title' => $sItem->get_title(),
                     'description' => $sItem->get_description(),
                     'content' => $sItem->get_content(),
-                    'categories' => $categories,
                     'copyright' => $sItem->get_copyright(),
                     'date' => $sItem->get_date($dateFormat),
                     'updated_date' => $sItem->get_updated_date($dateFormat),
